@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fb;
+    color: #243047;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #173b63;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #d5e5f5;
+}
+
+main {
+    background: white;
+    width: 90%;
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 45px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+main h2 {
+    color: #173b63;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+footer {
+    margin-top: auto;
+    background: #173b63;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Tabela de usuários */
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+main th {
+    background: #173b63;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+main td {
+    padding: 14px;
+    border: 1px solid #dce3ed;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+main tr:nth-child(even) {
+    background: #f3f6fb;
+}
+
+main tr:hover td {
+    background: #e8f1fa;
+}
+
+
+/* Formulário de cadastro de usuários */
+
+.cadastro-usuario {
+    margin: 30px 0;
+    padding: 25px;
+    background: #f3f6fb;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.cadastro-usuario h3 {
+    color: #173b63;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.campo input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.campo input:focus {
+    outline: 2px solid #4b91d1;
+    border-color: #4b91d1;
+}
+
+.cadastro-usuario button {
+    background: #173b63;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cadastro-usuario button:hover:not(:disabled) {
+    background: #24588e;
+}
+
+.cadastro-usuario button:disabled {
+    background: #94a3b8;
+    cursor: not-allowed;
+}
+
+
+.campo select,
+.campo textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.campo textarea {
+    resize: vertical;
+}
+
