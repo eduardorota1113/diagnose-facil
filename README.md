@@ -115,11 +115,8 @@ O código deve ser revisado e testado pelos integrantes.
 
 ## Integrantes
 
-- Nome: [PREENCHER]
-- RA: [PREENCHER]
+- Nome: Eduardo Prens Rota
 
-## Instituição
+## Contexto acadêmico
 
 - Curso: Análise e Desenvolvimento de Sistemas
-- Disciplina: [PREENCHER]
-- Professor: [PREENCHER]
